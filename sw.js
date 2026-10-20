@@ -1,9 +1,9 @@
 // Keep each GitHub Pages repository's cache separate on the shared origin.
 const CACHE_PREFIX = `skillsync-shell:${self.registration.scope}:`;
-const CACHE = `${CACHE_PREFIX}20261020-3`;
+const CACHE = `${CACHE_PREFIX}20261020-4`;
 const FILES = [
-  './', './index.html', './style.css?v=20261020-3',
-  './site.js?v=20261020-3', './manifest.webmanifest', './icon.svg', './favicon.svg', './skillsync-promo.jpg',
+  './', './index.html', './style.css?v=20261020-4',
+  './site.js?v=20261020-3', './manifest.webmanifest', './icon.svg', './favicon.svg', './skillsync-promo.jpg', './skillsync-hasznalat.jpg',
 ];
 
 self.addEventListener('install', event => {
