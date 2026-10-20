@@ -39,3 +39,18 @@
 .spark-top{top:41px;right:51px}.spark-bottom{bottom:41px;left:54px;color:#1A365D}
 @media(max-width:740px){.download-section{grid-template-columns:1fr;gap:32px;padding-top:74px;padding-bottom:75px}.download-copy h2{font-size:42px;letter-spacing:-2px}.download-copy>p:not(.download-note){font-size:13px}.download-visual{min-height:345px}.download-visual::before{width:285px;height:285px}.download-visual::after{width:235px;height:235px}.qr-card{width:238px;padding:15px}.qr-frame{width:206px;height:206px}.spark-top{right:25px}.spark-bottom{left:24px}}
 .button-dark{background:#1A365D;color:#fff}.button-dark:hover{background:#234a79}.hero h1 em,.section-heading h2 em,.feature-strip h2 em{color:#FF6B00}.button-light{color:#1A365D}.eyebrow{color:#536b8c}.pulse{background:#FF6B00}.text-link:hover,.rail-link,.feature-list i,.app-tabs>a{color:#1A365D}.ticker{background:#eaf0f8;color:#1A365D}.ticker span:nth-of-type(2n){color:#FF6B00}.step-icon,.icon-lilac{background:#e8edf6}.icon-peach{background:#fff0e6}.icon-mint{background:#e2ebf6}.manifesto{background:#1A365D}.manifesto h2 em{color:#ff9b59}.manifesto .eyebrow{color:#bfcee3}.manifesto p{color:#dce5f2}.manifesto-star{color:#FF6B00}.star-b{color:#ffb171}.profile-mini,.sidebar,.app-topbar,.mobile-nav{background:#fbfcfe}.side-nav a.active,.side-nav a:hover,.group-shortcuts a:hover{background:#edf2f8;color:#1A365D}.side-nav i{background:#edf2f8}.join-button{background:#fff2e8;border-color:#ffd0ad;color:#a84600}.join-button.joined{background:#edf2f8;border-color:#d6e0ee;color:#1A365D}.join-group.joined{background:#ffe6d3;color:#a84600}.prompt-card{background:#eef3fa}.prompt-icon,.rail-spark{color:#FF6B00}.mobile-nav button.selected{color:#1A365D}.mobile-nav .mobile-create{background:#FF6B00;color:#fff}.toast{background:#1A365D}.art-poster{background:#dbe5f2}.poster-shape{background:#f2ba8b}.shape-sun{background:#FF6B00}.shape-arch{background:#1A365D}.poster-caption em{color:#ffbd91}.art-note>span:first-child{background:#fff0e6}.note-top .art-note i{color:#FF6B00}
+
+
+/* SkillSync promo video */
+.promo-section{padding-top:0;padding-bottom:104px;scroll-margin-top:32px}
+.promo-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;margin-bottom:30px}
+.promo-heading h2{margin:16px 0 0;color:#1A365D;font:600 clamp(36px,4.3vw,54px)/1.14 'Poppins',sans-serif;letter-spacing:-2.5px}
+.promo-heading h2 em{color:#FF6B00;font-style:normal}
+.promo-heading>p{max-width:310px;margin:0 0 6px;color:#65748b;font-size:13px;line-height:1.8}
+.promo-duration{display:block;margin-top:13px;color:#536b8c;font-size:10px;font-weight:600}
+.promo-player{margin:0;overflow:hidden;border:1px solid #e2e8f0;border-radius:24px;background:#fff;box-shadow:0 20px 60px #1a365d12}
+.promo-player video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#1A365D;object-fit:contain}
+.promo-player figcaption{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;padding:19px 24px;color:#65748b;font-size:12px}
+.promo-player figcaption>a{display:inline-flex;align-items:center;gap:12px;color:#1A365D;font-weight:600}
+.promo-player figcaption>a:hover{color:#d95700}
+@media(max-width:740px){.promo-section{padding-bottom:74px;scroll-margin-top:20px}.promo-heading{display:block;margin-bottom:24px}.promo-heading h2{font-size:38px;letter-spacing:-1.8px}.promo-heading>p{max-width:100%;margin-top:18px;font-size:12px}.promo-player{border-radius:16px}.promo-player figcaption{padding:15px 16px;font-size:11px}}
