@@ -1,4 +1,4 @@
-const APK_URL = 'https://expo.dev/accounts/kattote/projects/skillsync-mobile/builds/5601d4fb-cb7f-4b18-b3d8-79a79b1804ca';
+const APK_URL = 'https://github.com/GramaBence/SkillSync/releases/download/android-v1.0.0-4/SkillSync.apk';
 
 // Refresh an older installed landing page when its new worker becomes active.
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
